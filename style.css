@@ -28,7 +28,7 @@ body {
 .navbar .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #8DA9C4;
+    color: #ffff;
 }
 
 .navbar nav ul {
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar nav ul li a:hover {
-    color: #EEB902;
+    color: #68a3ef;
 }
 
 /* Hero Section */
