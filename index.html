@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduScholar - Conferences & Grants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">EduScholar</div>
+        <nav>
+            <ul>
+                <li><a href="#worldwide">Global Opportunities</a></li>
+                <li><a href="#egypt">Egypt Opportunities</a></li>
+                <li><a href="#submit">Submit Opportunity</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering Academic Journeys</h1>
+            <p>Discover fully funded conferences, research grants, and scholarships worldwide and locally in Egypt.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for grants, conferences, or fields...">
+                <button>Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <main class="container">
+        
+        <!-- Worldwide Section -->
+        <section id="worldwide" class="opportunity-section">
+            <h2 class="section-title">🌍 Worldwide Opportunities</h2>
+            <div class="grid">
+                
+                <!-- Card 1 -->
+                <div class="card">
+                    <span class="badge grant">Full Funding</span>
+                    <h3>Fulbright Foreign Student Program</h3>
+                    <p class="organizer">AMIDEAST & US Department of State</p>
+                    <p class="details">📍 USA | 📅 Academic Year 2027</p>
+                    <p class="deadline approaching">⏳ Deadline: June 2027</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <span class="badge conference">Conference</span>
+                    <h3>Munich Youth Conference 2027</h3>
+                    <p class="organizer">Munich Security Conference Foundation</p>
+                    <p class="details">📍 Munich, Germany | 📅 Feb 12-14, 2027</p>
+                    <p class="deadline">⏳ Deadline: Nov 30, 2026</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <span class="badge research">Research Grant</span>
+                    <h3>Marie Skłodowska-Curie Actions</h3>
+                    <p class="organizer">European Commission</p>
+                    <p class="details">📍 Europe (Various) | 📅 2027 Cohort</p>
+                    <p class="deadline">⏳ Deadline: Sep 15, 2026</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Egypt Section -->
+        <section id="egypt" class="opportunity-section">
+            <h2 class="section-title">🇪🇬 Opportunities in Egypt</h2>
+            <div class="grid">
+                
+                <!-- Card 1 -->
+                <div class="card">
+                    <span class="badge grant">Full Funding</span>
+                    <h3>ITIDA Scholarship Program</h3>
+                    <p class="organizer">Information Technology Industry Development Agency</p>
+                    <p class="details">📍 Egypt (Local Universities) | 📅 Oct 2026</p>
+                    <p class="deadline approaching">⏳ Deadline: Nov 15, 2026</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <span class="badge research">Research Grant</span>
+                    <h3>ASRT Research & Innovation Grants</h3>
+                    <p class="organizer">Academy of Scientific Research and Technology</p>
+                    <p class="details">📍 Cairo, Egypt | 📅 Cycle 2027</p>
+                    <p class="deadline">⏳ Deadline: Dec 31, 2026</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <span class="badge conference">Conference</span>
+                    <h3>Cairo International Biomedical Engineering Conference</h3>
+                    <p class="organizer">Cairo University</p>
+                    <p class="details">📍 Cairo, Egypt | 📅 Dec 2026</p>
+                    <p class="deadline approaching">⏳ Deadline: Nov 01, 2026</p>
+                    <button class="btn">Apply Now</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Submission Form Section -->
+        <section id="submit" class="submit-section">
+            <h2>📢 Submit an Opportunity</h2>
+            <p>Are you an organization or professor? Share a conference or grant with our student community.</p>
+            <form class="opportunity-form" onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <label>Opportunity Title</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Organization / Organizer</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" placeholder="e.g., Egypt, Remote, Germany" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Type</label>
+                        <select>
+                            <option>Conference</option>
+                            <option>Grant / Funding</option>
+                            <option>Scholarship</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Deadline Date</label>
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit Request</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 EduScholar. All academic rights reserved.</p>
+    </footer>
+
+</body>
+</html>
